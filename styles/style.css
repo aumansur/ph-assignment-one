@@ -10,9 +10,8 @@
   margin-top: 100px;
   width: 1140px;
   margin: auto;
-  position: relative;
   overflow: hidden;
-  height: 100vh;
+ 
 }
 .btnPrimary {
   background: #fff;
@@ -22,8 +21,8 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   font-weight: 600;
-  font-size: 16px;
-  padding: 10px 15px;
+  font-size: 18px;
+  padding: 15px 20px;
   border: none;
   color: #005fac;
 }
@@ -32,6 +31,10 @@
   background-image: url(../images/banner/banner3.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  height: 100vh;
 }
 .heroText {
   text-align: right;
@@ -41,7 +44,7 @@
   width: 450px;
   margin-right: 0;
   position: absolute;
-  right: 0;
+  right: 388px;
   overflow: hidden;
   word-spacing: 10px;
 }
@@ -129,3 +132,126 @@
     margin-top: 15px;
 }
 /* plan style end */
+
+/* positive section style start */
+.positiveSection{
+    background-image: linear-gradient(90deg,rgba(13, 113, 227, 0.8), rgba(157, 202, 188, 0.2)), url(../images/watch.png);
+    /*background-image: url(../Image/bg.jpg);
+    */height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    border-radius:7px;
+    7-webkit-border-radius:;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+    -webkit-border-radius:7px;
+}
+.positiveText h1{
+    color: #fff;
+    font-size: 40px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+.positiveText{
+    padding:60px 65px;
+}
+/* positive section style end */
+/* footer section style start */
+.footerSection{
+   
+    background-color: #000;
+    margin-top: 120px;
+    
+}
+.fotterWrapp{
+    display: flex;
+    justify-content: space-between;
+}
+.iconBox{
+    display: flex;
+    width: 185px;
+    justify-content: space-between;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+.contactBox{
+    color: #fff;
+    width: 485px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+  
+}
+.contactBox p{
+    margin-top: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.contactBox h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 60px;
+    display: block;
+}
+.email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 60px;
+}
+.phone{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+display: block;
+    margin-left: 60px;
+
+}
+.subscribeBox{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.subscribeBox h3{
+  color: #fff;
+  font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+margin-bottom: 15px;
+}
+.subscribeBox input{
+ padding: 20px;
+ width: 320px;
+ background: #151414;
+ color: white;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ border: 1px solid #fff;
+ display: block;
+
+}
+.subscribeBox input::placeholder{
+    color: #fff;
+}
+
+.btnSubscribe{
+    background: #005fac;;
+  border: radius 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 20px 25px;
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+}
